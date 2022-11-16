@@ -13,5 +13,41 @@
         <img class="img_header img2" src="images/logo.png" alt="icone logo">
         <img class="img_header img3" src="images/panier.png" alt="icone panier">
     </header>
+    <main>
+        <img class="img_rose main_rose" src="images/rose.jpg" alt="rose rose">
+        <div class="choose_product center">
+            <img class="img_products img_product_rose" src="images/rose.jpg" alt="rose rose">
+            <img class="img_products img_product_bleu" src="images/bleu.jpg" alt="rose bleue">
+            <img class="img_products img_product_jaune" src="images/jaune.jpg" alt="rose jaune">
+        </div>
+        <h1>Dôme Golden Rose's</h1>
+
+        <!--Code intégration bouton Paypal-->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="CTMQ5LLSWZG6A">
+            <table>
+            <tr><td><input type="hidden" name="on0" value="Couleur">Choisissez votre couleur</td></tr><tr><td><select name="os0">
+                <option value="Rose">Rose </option>
+                <option value="Bleu">Bleu </option>
+                <option value="Jaune">Jaune </option>
+            </select> </td></tr>
+            </table>
+            <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        <!--FIN Code intégration bouton Paypal-->
+        <h2>L'élégante parisienne</h2>
+        <p>Cette rose éternelle mise sous cloche munie de sa lumière LED est une métaphore de la femme parisienne. Belle, raffinée, élégante et souriante votre compagne ne pourra que valider votre choix.</p>
+        <img class="img_lady" src="images/lady.jpg" alt="jeune femme élégante">
+        <h2>Le luxe et la qualité à la française</h2>
+        <p>La France est connu pour ses objets luxuriants et pour sa qualité. Nous avons réussi à rendre une rose éternelle. C'est ce qu'on appelle "</p>
+        <img class="img_musee" src="images/musee.jpg" alt="image d'un musée">
+        <img class="img_paiementSecure" src="images/paiement-securise-garantie_1060x_56928dde-1002-4972-b7f4-877c277dd670.png" alt="image paiement securise">
+        <footer>
+            Valentin Burillier
+        </footer>
+    </main>
+<script src="script.js"></script>
 </body>
 </html>
