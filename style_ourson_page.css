@@ -75,6 +75,7 @@ h1 {
     text-shadow: 1px 1px gray;
     text-shadow: 2px 2px white;
     padding: 2px;
+    text-align: center;
 }
 table, tr, td {
     display: flex;
@@ -97,19 +98,24 @@ h2 {
     letter-spacing: 2px;
     text-align: center;
 }
+.div_occasion {
+    border: 5px solid white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 2px 2px red;
+    border-radius: 5px;
+}
+ul li {
+    list-style: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+}
 p {
     text-align: center;
     margin: 15px 10px 0 10px;
     letter-spacing: 2px;
-}
-.img_lady {
-    margin-top: 15px;
-    box-shadow: 5px 5px white;
-}
-.img_musee {
-    margin-top: 15px;
-    width: 320px;
-    box-shadow: 5px 5px white;
 }
 .img_paiementSecure {
     margin-top: 15px;
