@@ -155,3 +155,91 @@ footer {
 .h3_footer {
     margin-top: 15px;
 }
+/*RESPONSIVE MIN 552x600px*/
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    .maxWidth499px {
+        display: none;
+    }
+    .promotion {
+        font-size: 18px;
+        margin-top: 2px;
+        padding: 2px;
+        border-bottom: 1px solid red;
+        border-top: 1px solid red;
+        text-shadow: 0.5px 0.5px red;
+        display: block;
+    }
+    h1 {
+        color: pink;
+        border: none;
+        background-color: white;
+        width: 100vw;
+        text-align: center;
+        text-shadow: 0.5px 0.5px red;
+    }
+    .price {
+        width: 50vw;
+        font-size: 18px;
+        text-shadow: 0.5px 0.5px red;
+    }
+    td {
+        color: white;
+        text-shadow: 0.5px 0.5px red;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+    select {
+        border-radius: 5px;
+        border-color: red;
+        padding: 5px;
+        text-align: center;
+        font-weight: lighter;
+        width: 80px;
+        color: black;
+        text-shadow: 0.5px 0.5px lightgray;
+        text-transform: uppercase;
+        box-shadow: 2px 2px white;
+    }
+    .item1 {
+        margin-top: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 3px white;
+        padding: 10px;
+    }
+    .other_products {
+        justify-content: space-around;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        padding: 5px;
+        gap: 7px;
+    }
+    .img_product_1 {
+        width: 200px;
+        box-shadow: 1px 3px white;
+    }
+    .price_other_products {
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-shadow: 1px 1px red;
+        padding: 2px;
+        box-shadow: 1px 1px purple;
+    }
+    .btn_other_products {
+        margin-top: 10px;
+        background-color: white;
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        font-weight: bold;
+        text-shadow: 0.3px 0.5px red;
+        font-size: 18px;
+        margin-bottom: 10px;
+        box-shadow: 1px 1px red;
+    }
+    a {
+        text-decoration: none;
+        color: pink;
+    }
+};
